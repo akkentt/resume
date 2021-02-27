@@ -84,24 +84,24 @@
 ### 酒店管理系统
 ---
 #### 2013年大二参赛作品 使用asp.net开发(C#) 获得特等奖
-<a data-fancybox title="" href="./.vuepress/public/assets/zp-1.png">![](./.vuepress/public/assets/zp-1.png)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/zp-2.png">![](./.vuepress/public/assets/zp-2.png)</a>
+<a data-fancybox title="" href="/resume/assets/zp-1.png">![](/resume/assets/zp-1.png)</a>
+<a data-fancybox title="" href="/resume/assets/zp-2.png">![](/resume/assets/zp-2.png)</a>
 
 <br><br>
 
 ### 考勤办公系统
 ---
 #### 2014年大三 厚溥杯软件大赛 参赛作品 使用asp.net开发(C#) 获得二等奖
-<a data-fancybox title="" href="./.vuepress/public/assets/zp-3.png">![](./.vuepress/public/assets/zp-3.png)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/zp-4.png">![](./.vuepress/public/assets/zp-4.png)</a>
+<a data-fancybox title="" href="/resume/assets/zp-3.png">![](/resume/assets/zp-3.png)</a>
+<a data-fancybox title="" href="/resume/assets/zp-4.png">![](/resume/assets/zp-4.png)</a>
 
 <br><br>
 
 ### 云上的日子 音乐电台
 ---
 #### 2015年  个人兴趣开发，主要抓取网易云、QQ音乐API，可解析播放下载付费、无版权音乐，开源后高峰期时月访问量30万+，后考虑资源版权问题停止维护
-<a data-fancybox title="" href="./.vuepress/public/assets/zp-5.png">![](./.vuepress/public/assets/zp-5.png)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/zp-6.png">![](./.vuepress/public/assets/zp-6.png)</a>
+<a data-fancybox title="" href="/resume/assets/zp-5.png">![](/resume/assets/zp-5.png)</a>
+<a data-fancybox title="" href="/resume/assets/zp-6.png">![](/resume/assets/zp-6.png)</a>
 
 <br><br>
 
@@ -113,12 +113,12 @@
 #### 2017年4月开始陆续开发，包括中原官网、中原IM小程序等项目，目前处于持续迭代维护状态
 <div class="work-project">
 
-<a data-fancybox title="" href="./.vuepress/public/assets/xm-1.jpg">![](./.vuepress/public/assets/xm-1.jpg)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/xm-2.jpg">![](./.vuepress/public/assets/xm-2.jpg)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/xm-3.jpg">![](./.vuepress/public/assets/xm-3.jpg)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/xm-4.jpg">![](./.vuepress/public/assets/xm-4.jpg)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/xm-5.jpg">![](./.vuepress/public/assets/xm-5.jpg)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/xm-6.jpg">![](./.vuepress/public/assets/xm-6.jpg)</a>
+<a data-fancybox title="" href="/resume/assets/xm-1.jpg">![](/resume/assets/xm-1.jpg)</a>
+<a data-fancybox title="" href="/resume/assets/xm-2.jpg">![](/resume/assets/xm-2.jpg)</a>
+<a data-fancybox title="" href="/resume/assets/xm-3.jpg">![](/resume/assets/xm-3.jpg)</a>
+<a data-fancybox title="" href="/resume/assets/xm-4.jpg">![](/resume/assets/xm-4.jpg)</a>
+<a data-fancybox title="" href="/resume/assets/xm-5.jpg">![](/resume/assets/xm-5.jpg)</a>
+<a data-fancybox title="" href="/resume/assets/xm-6.jpg">![](/resume/assets/xm-6.jpg)</a>
 
 </div>
 <br><br>
@@ -129,10 +129,10 @@
 #### 2018年3月开始陆续开发，包括中原官网、House730等项目，目前处于持续迭代维护状态
 
 
-<a data-fancybox title="" href="./.vuepress/public/assets/pc-1.png">![](./.vuepress/public/assets/pc-1.png)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/pc-2.png">![](./.vuepress/public/assets/pc-2.png)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/pc-3.png">![](./.vuepress/public/assets/pc-3.png)</a>
-<a data-fancybox title="" href="./.vuepress/public/assets/pc-4.png">![](./.vuepress/public/assets/pc-4.png)</a>
+<a data-fancybox title="" href="/resume/assets/pc-1.png">![](/resume/assets/pc-1.png)</a>
+<a data-fancybox title="" href="/resume/assets/pc-2.png">![](/resume/assets/pc-2.png)</a>
+<a data-fancybox title="" href="/resume/assets/pc-3.png">![](/resume/assets/pc-3.png)</a>
+<a data-fancybox title="" href="/resume/assets/pc-4.png">![](/resume/assets/pc-4.png)</a>
 
 <br><br>
 
