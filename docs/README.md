@@ -83,7 +83,7 @@
 
 ### 酒店管理系统
 ---
-#### 2013年大二参赛作品 使用asp.net开发(C#) 获得特等奖
+#### 2013年大二比赛参赛作品(校级) 使用asp.net(C#)开发 获得特等奖
 <a data-fancybox title="" href="/resume/assets/zp-1.png">![](/resume/assets/zp-1.png)</a>
 <a data-fancybox title="" href="/resume/assets/zp-2.png">![](/resume/assets/zp-2.png)</a>
 
@@ -91,7 +91,7 @@
 
 ### 考勤办公系统
 ---
-#### 2014年大三 厚溥杯软件大赛 参赛作品 使用asp.net开发(C#) 获得二等奖
+#### 2014年大三 厚溥杯软件大赛(省级) 参赛作品 使用asp.net(C#)开发 获得二等奖
 <a data-fancybox title="" href="/resume/assets/zp-3.png">![](/resume/assets/zp-3.png)</a>
 <a data-fancybox title="" href="/resume/assets/zp-4.png">![](/resume/assets/zp-4.png)</a>
 

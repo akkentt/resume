@@ -1,6 +1,7 @@
 module.exports = {
   base:"/resume/",
   title:"akkentt",
+  dest:"dist",
   head:[
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js' }],
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js' }],
