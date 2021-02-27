@@ -136,6 +136,8 @@
 
 <br><br>
 
+<div class="download"><a target="_blank" href="/resume/huangkuan-resume.pdf">下载简历</a></div>
+
 
 
  
