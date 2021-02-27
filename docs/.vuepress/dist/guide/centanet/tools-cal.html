@@ -3,26 +3,248 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>CENTANET-前端项目指南</title>
+    <title>找房工具类(各端通用) | akkentt</title>
     <meta name="generator" content="VuePress 1.8.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
     <meta name="description" content="">
     
-    <link rel="preload" href="/assets/css/0.styles.2b5a2195.css" as="style"><link rel="preload" href="/assets/js/app.fe1f2b84.js" as="script"><link rel="preload" href="/assets/js/2.252b81b9.js" as="script"><link rel="preload" href="/assets/js/12.8a5a071d.js" as="script"><link rel="prefetch" href="/assets/js/10.b3cafea4.js"><link rel="prefetch" href="/assets/js/11.4553ca87.js"><link rel="prefetch" href="/assets/js/13.e86a4c8b.js"><link rel="prefetch" href="/assets/js/14.96419a4f.js"><link rel="prefetch" href="/assets/js/15.447b80d1.js"><link rel="prefetch" href="/assets/js/16.cd543bfc.js"><link rel="prefetch" href="/assets/js/17.4c471b83.js"><link rel="prefetch" href="/assets/js/18.f809706f.js"><link rel="prefetch" href="/assets/js/19.54eff449.js"><link rel="prefetch" href="/assets/js/20.e46c261a.js"><link rel="prefetch" href="/assets/js/3.ca0ddb7a.js"><link rel="prefetch" href="/assets/js/4.4389bf5d.js"><link rel="prefetch" href="/assets/js/5.e3f0e062.js"><link rel="prefetch" href="/assets/js/6.5e8dd033.js"><link rel="prefetch" href="/assets/js/7.501bf071.js"><link rel="prefetch" href="/assets/js/8.aaa72801.js"><link rel="prefetch" href="/assets/js/9.544433e0.js">
-    <link rel="stylesheet" href="/assets/css/0.styles.2b5a2195.css">
+    <link rel="preload" href="/resume/assets/css/0.styles.80552c30.css" as="style"><link rel="preload" href="/resume/assets/js/app.0b89c60e.js" as="script"><link rel="preload" href="/resume/assets/js/2.9c9fc774.js" as="script"><link rel="preload" href="/resume/assets/js/12.aa02108f.js" as="script"><link rel="prefetch" href="/resume/assets/js/10.91012812.js"><link rel="prefetch" href="/resume/assets/js/11.91a4116f.js"><link rel="prefetch" href="/resume/assets/js/13.b129675a.js"><link rel="prefetch" href="/resume/assets/js/14.296ae38d.js"><link rel="prefetch" href="/resume/assets/js/15.369321d4.js"><link rel="prefetch" href="/resume/assets/js/16.ea8c677d.js"><link rel="prefetch" href="/resume/assets/js/17.cfe07c3b.js"><link rel="prefetch" href="/resume/assets/js/18.cb6e5349.js"><link rel="prefetch" href="/resume/assets/js/19.b8ab3fb3.js"><link rel="prefetch" href="/resume/assets/js/20.9e2dd429.js"><link rel="prefetch" href="/resume/assets/js/21.247e2a8b.js"><link rel="prefetch" href="/resume/assets/js/22.79c415c4.js"><link rel="prefetch" href="/resume/assets/js/23.4adbce70.js"><link rel="prefetch" href="/resume/assets/js/24.d4eac43b.js"><link rel="prefetch" href="/resume/assets/js/25.215c2de2.js"><link rel="prefetch" href="/resume/assets/js/3.942a1332.js"><link rel="prefetch" href="/resume/assets/js/4.3891f81f.js"><link rel="prefetch" href="/resume/assets/js/5.b26c8bd0.js"><link rel="prefetch" href="/resume/assets/js/6.620faeec.js"><link rel="prefetch" href="/resume/assets/js/7.7ace92b6.js"><link rel="prefetch" href="/resume/assets/js/8.fc26c624.js"><link rel="prefetch" href="/resume/assets/js/9.9e100842.js">
+    <link rel="stylesheet" href="/resume/assets/css/0.styles.80552c30.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">CENTANET-前端项目指南</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>中原官网-移动站</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/centanet/webapp.html" class="sidebar-link">中原找房官网(移动站)</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#基本信息" class="sidebar-link">基本信息</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#对应线上应用" class="sidebar-link">对应线上应用</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#git地址" class="sidebar-link">GIT地址</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#对接人员" class="sidebar-link">对接人员</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#测试环境" class="sidebar-link">测试环境</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#线上部署服务器" class="sidebar-link">线上部署服务器</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#静态资源服务器" class="sidebar-link">静态资源服务器</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#项目框架" class="sidebar-link">项目框架</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#项目结构" class="sidebar-link">项目结构</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#新增城市配置" class="sidebar-link">新增城市配置</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#发布测试环境流程" class="sidebar-link">发布测试环境流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#构建测试包" class="sidebar-link">构建测试包</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#测试环境发布-部署" class="sidebar-link">测试环境发布&amp;部署</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#发布生产环境流程" class="sidebar-link">发布生产环境流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#构建生产包" class="sidebar-link">构建生产包</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#针对已上线城市部署" class="sidebar-link">针对已上线城市部署</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/webapp.html#针对新城市开通上线" class="sidebar-link">针对新城市开通上线</a></li></ul></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>中原官网-用户中心</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/centanet/passport.html" class="sidebar-link">中原找房官网(用户中心)</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#基本信息" class="sidebar-link">基本信息</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#对应线上应用" class="sidebar-link">对应线上应用</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#git地址" class="sidebar-link">GIT地址</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#对接人员" class="sidebar-link">对接人员</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#线上部署服务器" class="sidebar-link">线上部署服务器</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#项目框架" class="sidebar-link">项目框架</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#项目结构" class="sidebar-link">项目结构</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#发版流程" class="sidebar-link">发版流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#构建生产包" class="sidebar-link">构建生产包</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/passport.html#生产环境部署" class="sidebar-link">生产环境部署</a></li></ul></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>中原官网-微聊小程序端</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/centanet/chat-mp.html" class="sidebar-link">经纪人端微聊小程序</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#基本信息" class="sidebar-link">基本信息</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#对应线上应用" class="sidebar-link">对应线上应用</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#git地址" class="sidebar-link">GIT地址</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#管理后台" class="sidebar-link">管理后台</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#对接人员" class="sidebar-link">对接人员</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#配置相关信息" class="sidebar-link">配置相关信息</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#项目框架" class="sidebar-link">项目框架</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#项目结构" class="sidebar-link">项目结构</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#注意事项" class="sidebar-link">注意事项</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#_1-异常监控与事件上报" class="sidebar-link">1.异常监控与事件上报</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#_2-小程序后台日志查询" class="sidebar-link">2.小程序后台日志查询</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#_3-新消息提醒逻辑" class="sidebar-link">3.新消息提醒逻辑</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#_4-更新会话头像和群id逻辑" class="sidebar-link">4.更新会话头像和群ID逻辑</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#扩展功能" class="sidebar-link">扩展功能</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#_1-用户轨迹" class="sidebar-link">1.用户轨迹</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#_2-发送房源" class="sidebar-link">2.发送房源</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#_3-邀请经纪人进群" class="sidebar-link">3.邀请经纪人进群</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#_4-激活历史会话" class="sidebar-link">4.激活历史会话</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#发版流程" class="sidebar-link">发版流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#构建生产包" class="sidebar-link">构建生产包</a></li><li class="sidebar-sub-header"><a href="/guide/centanet/chat-mp.html#提交审核并发布" class="sidebar-link">提交审核并发布</a></li></ul></li></ul></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>中原官网-工具类</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/centanet/tools-cal.html" aria-current="page" class="active sidebar-link">/guide/centanet/tools-cal.html</a></li><li><a href="/guide/centanet/tools-entrust.html" class="sidebar-link">/guide/centanet/tools-entrust.html</a></li><li><a href="/guide/centanet/tools-history.html" class="sidebar-link">/guide/centanet/tools-history.html</a></li><li><a href="/guide/centanet/tools-vr.html" class="sidebar-link">/guide/centanet/tools-vr.html</a></li><li><a href="/guide/centanet/tools-iqtheme.html" class="sidebar-link">/guide/centanet/tools-iqtheme.html</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>HOUSE730-官网移动站</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/house730/webapp.html" class="sidebar-link">标题</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>HOUSE730-用户中心</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/house730/passport.html" class="sidebar-link">标题</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>HOUSE730-VR看房</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/house730/vr.html" class="sidebar-link">HOUSE730 VR看房</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#基本信息" class="sidebar-link">基本信息</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#对应线上应用" class="sidebar-link">对应线上应用</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#git地址" class="sidebar-link">GIT地址</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#对接人员" class="sidebar-link">对接人员</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#线上部署服务器" class="sidebar-link">线上部署服务器</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#项目框架" class="sidebar-link">项目框架</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#项目结构" class="sidebar-link">项目结构</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#注意事项" class="sidebar-link">注意事项</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#发布测试环境流程" class="sidebar-link">发布测试环境流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#修改api连接地址" class="sidebar-link">修改API连接地址</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#构建测试包-生产环境通用" class="sidebar-link">构建测试包(生产环境通用)</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#测试环境部署" class="sidebar-link">测试环境部署</a></li></ul></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#发布生产环境流程" class="sidebar-link">发布生产环境流程</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#构建生产包-同测试环境" class="sidebar-link">构建生产包(同测试环境)</a></li><li class="sidebar-sub-header"><a href="/guide/house730/vr.html#生产环境部署" class="sidebar-link">生产环境部署</a></li></ul></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
-      ←
-      <a href="/guide/centanet/chat-mp.html" class="prev">
-        经纪人端微聊小程序
-      </a></span> <span class="next"><a href="/guide/centanet/tools-entrust.html">
-        /guide/centanet/tools-entrust.html
-      </a>
-      →
-    </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.fe1f2b84.js" defer></script><script src="/assets/js/2.252b81b9.js" defer></script><script src="/assets/js/12.8a5a071d.js" defer></script>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-navbar no-sidebar"><!----> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="找房工具类-各端通用"><a href="#找房工具类-各端通用" class="header-anchor">#</a> 找房工具类(各端通用)</h1> <br> <h2 id="基本信息"><a href="#基本信息" class="header-anchor">#</a> 基本信息</h2> <div class="custom-block tip"><p class="custom-block-title">简介</p> <p>响应式页面，内嵌至官网PC/WAP/APP/小程序中使用，所有端共用一套。包含房产估价、房贷计算器、二手房税费计算器、新房税费计算器/购房资格测试、最低首付测试等功能</p></div> <p><br><br></p> <h2 id="对应线上应用"><a href="#对应线上应用" class="header-anchor">#</a> 对应线上应用</h2> <p><strong>线上地址：</strong><br>
+房产估价：  <a href="https://tools.centanet.com/cal/appraisal/?cityen=sz" target="_blank" rel="noopener noreferrer">https://tools.centanet.com/cal/appraisal/?cityen=sz<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a><br>
+房贷计算器：<a href="https://tools.centanet.com/cal/calculator/?cityen=sz" target="_blank" rel="noopener noreferrer">https://tools.centanet.com/cal/calculator/?cityen=sz<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <br><br></p> <h2 id="git地址"><a href="#git地址" class="header-anchor">#</a> GIT地址</h2> <p><a href="http://gitlab.centaline.com.cn/centnet-group/centanet/tools/house-tools" target="_blank" rel="noopener noreferrer">http://gitlab.centaline.com.cn/centnet-group/centanet/tools/house-tools<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> <strong>开发分支：</strong> 2.0分支<br> <strong>线上分支：</strong> master分支
+<br><br></p> <h2 id="对接人员"><a href="#对接人员" class="header-anchor">#</a> 对接人员</h2> <p><strong>前端：</strong> 陈圆<br> <strong>Passport API：</strong> 白金强、钟金龙<br> <strong>二手房服务API：</strong> 白金强、钟金龙<br> <strong>新房服务API：</strong> 邹渊<br> <br><br></p> <h2 id="线上部署服务器"><a href="#线上部署服务器" class="header-anchor">#</a> 线上部署服务器</h2> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>涉及服务器发布的文件,必须107、108 两台服务器同步更新</p></div> <p><strong>依赖环境：</strong> IIS+URL重写模块(需额外安装)<br> <strong>IIS应用名：</strong> Passport<br> <strong>端口号：</strong> 801<br> <strong>程序目录：</strong> D:\webroot\Passport_Vue_2.0<br> <strong>服务器IP：</strong>  10.4.18.107  、10.4.18.108
+<br></p> <h2 id="项目框架"><a href="#项目框架" class="header-anchor">#</a> 项目框架</h2> <div class="custom-block tip"><p class="custom-block-title">注意</p> <p>注：用户中心早期使用频率较低，在重构该站点时，被作为Nuxt SSR（Vue服务端渲染）的试水项目，实质上此类性质的站点无须考虑SEO，故后续版本迭代 逐步剔除了所有的服务端相关代码，目前虽仍旧使用SSR框架，后续功能迭代时，应和传统SPA应用一致，只编写客户端执行的代码。</p></div> <p><strong>脚手架版本：</strong> @nuxt/cli v2.8.1<br> <strong>Nuxt版本：</strong> 2.13.0<br> <strong>UI框架：</strong> 部分使用Vant, 其他为原生实现
+<br></p> <h2 id="项目结构"><a href="#项目结构" class="header-anchor">#</a> 项目结构</h2> <p>具体目录结构,以及对应目录-功能模块参考：<br>
+核心模块&amp;文件参考高亮标记</p> <pre class="vue-container"><code><p>centanet-passport-2.0
+├─ .editorconfig   --编辑器配置统一
+├─ .prettierrc   --代码格式化插件配置
+├─ app.html   --入口页模板
+├─ assets    --资源文件
+│  ├─ css
+│  │  ├─ base.css
+│  │  ├─ minix.scss
+│  │  ├─ myalert.scss
+│  │  └─ usercenter.css
+│  ├─ images
+│  │  ├─ 160X120.png
+│  │  ├─ 400phone.png
+│  │  ├─ activity.png
+│  │  ├─ app.jpg
+│  │  ├─ arr-down.png
+│  │  ├─ arr-up.png
+│  │  ├─ chart.png
+│  │  ├─ check.png
+│  │  ├─ check_disabled.png
+│  │  ├─ check_on.png
+│  │  ├─ ...
+│  └─ js
+│     ├─ <code>apis.js</code>  --API相关配置
+│     ├─ config.js --城市相关配置
+│     ├─ filter.js  --过滤器
+│     ├─ <code>getData.js</code>   --部分页面调用API封装方法
+│     └─ <code>public.js</code>  --全局公共方法
+├─ cityinfo.js  --所有城市配置文件(暂未使用)
+├─ <code>components</code>   --通用组件
+│  ├─ appraise.vue
+│  ├─ call400.vue
+│  ├─ call401.vue
+│  ├─ care-ershoufang.vue
+│  ├─ care-huodong.vue
+│  ├─ care-jingjiren.vue
+│  ├─ care-xiaoqu.vue
+│  ├─ care-xinfang.vue
+│  ├─ care-zufang.vue
+│  ├─ downApp.vue
+│  ├─ entrust_comments.vue
+│  ├─ entrust_community_info.vue
+│  ├─ entrust_contract.vue
+│  ├─ entrust_house_info.vue
+│  ├─ entrust_house_price.vue
+│  ├─ entrust_improve_exposure.vue
+│  ├─ entrust_pricing.vue
+│  ├─ entrust_progress.vue
+│  ├─ entrust_stop.vue
+│  ├─ Foots.vue
+│  ├─ Headers.vue
+│  ├─ jingJiRenCheck.vue
+│  ├─ login-password.vue
+│  ├─ LoginFoots.vue
+│  ├─ Menu.vue
+│  ├─ message-house.vue
+│  ├─ message-system.vue
+│  ├─ pdf.vue
+│  ├─ searchHistoryItem.vue
+│  ├─ transactionItem.vue
+│  ├─ userinfo-modifypwd.vue
+│  └─ userinfo-setpwd.vue
+├─ <code>layouts</code>   --页面布局组件
+│  ├─ default.vue
+│  ├─ error.vue
+│  ├─ evaluation.vue
+│  ├─ login.vue
+│  ├─ null.vue
+│  └─ README.md
+├─ middleware  --中间件(已废弃)
+│  ├─ checkUser.js
+│  └─ README.md
+├─ <code>nuxt.config.js</code>  --核心配置文件
+├─ package-lock.json
+├─ package.json
+├─ <code>pages</code>    --页面组件
+│  ├─ activity.vue
+│  ├─ care  --我的关注页面组件
+│  │  ├─ ershoufang.vue
+│  │  ├─ huodong.vue
+│  │  ├─ jingjiren.vue
+│  │  ├─ xiaoqu.vue
+│  │  ├─ xinfang.vue
+│  │  └─ zufang.vue
+│  ├─ contract.vue<br>
+│  ├─ entrust.vue
+│  ├─ evaluation.vue
+│  ├─ findpassword.vue
+│  ├─ index.vue
+│  ├─ login.vue
+│  ├─ loginthird.vue  --第三方登录(已废弃)
+│  ├─ msglist.vue
+│  ├─ opinion.vue
+│  ├─ README.md
+│  ├─ reserve.vue
+│  ├─ reserved.vue
+│  ├─ searchHistory.vue
+│  ├─ seehouse.vue
+│  ├─ top.vue
+│  ├─ transaction.vue
+│  └─ userinfo.vue
+├─ <code>plugins</code>   --公共插件百度统计、表单验证等
+│  ├─ baidu_hm.js
+│  ├─ vant.js
+│  ├─ vee-validate.js
+│  ├─ vue-lazyload.js
+│  └─ vue-notifications.js
+├─ README.md
+├─ <code>static</code>  --静态文件(不会被编译至项目中)
+│  ├─ 1.pdf
+│  ├─ base.css
+│  ├─ favicon.ico
+│  ├─ images
+│  │  ├─ 160X120.png
+│  │  ├─ 404@2x.png
+│  │  ├─ 404@3x.png
+│  │  ├─ app.jpg
+│  │  ├─ arr-down.png
+│  │  ├─ arr-up.png
+│  │  ├─ chart.png
+│  │  ├─ check.png
+│  │  ├─ check_disabled.png
+│  │  ├─ ...
+│  └─ md5.js
+└─ <code>store</code>   --Vuex全局状态管理相关
+├─ action.js
+├─ care
+│  ├─ action.js
+│  ├─ getters.js
+│  ├─ index.js
+│  └─ mutations.js
+├─ getters.js
+├─ index.js
+├─ module.js
+├─ mutations.js
+├─ searchHistory
+│  ├─ action.js
+│  ├─ getters.js
+│  ├─ index.js
+│  └─ mutations.js
+└─ yuyue
+├─ action.js
+├─ getters.js
+├─ index.js
+└─ mutations.js</p>
+</code></pre><p><br><br></p> <h2 id="发版流程"><a href="#发版流程" class="header-anchor">#</a> 发版流程</h2> <h3 id="构建生产包"><a href="#构建生产包" class="header-anchor">#</a> 构建生产包</h3> <p>在程序目录执行cmd命令<code>npm run build</code> 构建生产包,输出示例,出现打包文件明细 ,且无错误输出 则构建成功
+构建文件路径： <code>项目根目录/dist/</code></p> <div class="language-shell extra-class"><pre class="language-shell"><code>E:<span class="token punctuation">\</span>git-new<span class="token punctuation">\</span>centanet-passport-2.<span class="token operator"><span class="token file-descriptor important">0</span>&gt;</span>npm run build
+
+<span class="token operator">&gt;</span> centanet-passport@1.0.0 build E:<span class="token punctuation">\</span>git-new<span class="token punctuation">\</span>centanet-passport-2.0
+<span class="token operator">&gt;</span> nuxt build
+ WARN  vendor has been deprecated due to webpack4 optimization                                                <span class="token number">17</span>:16:34
+
+i Production build                                                                                            <span class="token number">17</span>:16:36
+i Bundling only <span class="token keyword">for</span> client side                                                                               <span class="token number">17</span>:16:36
+i Target: static                                                                                              <span class="token number">17</span>:16:36
+√ Builder initialized                                                                                         <span class="token number">17</span>:16:36
+√ Nuxt files generated                                                                                        <span class="token number">17</span>:16:36
+
+ WARN  Browserslist: caniuse-lite is outdated. Please run:                                                    <span class="token number">17</span>:16:36
+npx browserslist@latest --update-db
+
+
+√ Client
+  Compiled successfully <span class="token keyword">in</span> <span class="token number">24</span>.10s
+Hash: 8e751d194427db07aa2f
+Version: webpack <span class="token number">4.43</span>.0
+Time: 24104ms
+Built at: <span class="token number">2021</span>-01-13 <span class="token number">17</span>:17:02
+                                  Asset      Size  Chunks                                Chunk Names
+         <span class="token punctuation">..</span>/server/client.manifest.json  <span class="token number">48.5</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+         09a0b65396d5a2c94232.worker.js   <span class="token number">825</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>  <span class="token punctuation">[</span>big<span class="token punctuation">]</span>
+                               LICENSES  <span class="token number">1.74</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                         app.c00e03d.js   <span class="token number">148</span> KiB       <span class="token number">1</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         app
+                 commons/app.1e7b06f.js   <span class="token number">179</span> KiB       <span class="token number">2</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         commons/app
+commons/contract~transaction.70d1180.js  <span class="token number">21.8</span> KiB       <span class="token number">0</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         commons/contract~transaction
+                img/160X120.22d7ba3.png   <span class="token number">123</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+               img/400phone.3ab6466.png  <span class="token number">15.9</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+               img/activity.28fedb7.png    <span class="token number">35</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                    img/app.b8b7887.jpg  <span class="token number">8.48</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+               img/closebtn.dbae414.png   <span class="token number">1.5</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+         img/defaultUserImg.1fef962.jpg  <span class="token number">3.83</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+               img/download.fbf5694.png  <span class="token number">4.12</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                   img/icon.551539f.png  <span class="token number">11.2</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+   img/jignjiren-zhuangjian.b314549.png  <span class="token number">2.77</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                   img/logo.36d7219.png  <span class="token number">17.4</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+               img/min-logo.a948274.png   <span class="token number">5.3</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                 img/msg_mu.c65ce17.png  <span class="token number">64.9</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                   img/pcbg.340aef4.jpg   <span class="token number">117</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                img/phonebg.15b9d1d.jpg  <span class="token number">96.4</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                 img/police.d0289dc.png  <span class="token number">18.8</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                     img/qq.fd6ff54.png  <span class="token number">1.38</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+               img/seehouse.d6028d0.png  <span class="token number">31.8</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                 img/spaceC.da85bbe.png  <span class="token number">30.9</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                  img/weibo.72b7a9a.png  <span class="token number">1.84</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+                  img/weixi.f25ef5c.png  <span class="token number">1.76</span> KiB          <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span>
+              pages/activity.ca3113c.js     <span class="token number">6</span> KiB       <span class="token number">3</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/activity
+       pages/care/ershoufang.df18b6f.js  <span class="token number">7.93</span> KiB       <span class="token number">4</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/care/ershoufang
+          pages/care/huodong.bd6a88f.js   <span class="token number">7.6</span> KiB       <span class="token number">5</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/care/huodong
+        pages/care/jingjiren.ac15c99.js  <span class="token number">17.9</span> KiB       <span class="token number">6</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/care/jingjiren
+           pages/care/xiaoqu.85fa99d.js  <span class="token number">8.41</span> KiB       <span class="token number">7</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/care/xiaoqu
+          pages/care/xinfang.8e55c53.js  <span class="token number">7.72</span> KiB       <span class="token number">8</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/care/xinfang
+           pages/care/zufang.7be4be7.js  <span class="token number">7.61</span> KiB       <span class="token number">9</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/care/zufang
+              pages/contract.635006a.js  <span class="token number">7.33</span> KiB      <span class="token number">10</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/contract
+               pages/entrust.d5688dc.js   <span class="token number">116</span> KiB      <span class="token number">11</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/entrust
+            pages/evaluation.85e457e.js  <span class="token number">16.1</span> KiB      <span class="token number">12</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/evaluation
+          pages/findpassword.d5db42c.js  <span class="token number">7.81</span> KiB      <span class="token number">13</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/findpassword
+                 pages/index.1c24876.js  <span class="token number">5.94</span> KiB      <span class="token number">14</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/index
+                 pages/login.221bc8a.js  <span class="token number">12.8</span> KiB      <span class="token number">15</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/login
+            pages/loginthird.d7b818d.js  <span class="token number">2.64</span> KiB      <span class="token number">16</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/loginthird
+               pages/msglist.9f8d82e.js  <span class="token number">32.6</span> KiB      <span class="token number">17</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/msglist
+               pages/opinion.8151c67.js  <span class="token number">3.74</span> KiB      <span class="token number">18</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/opinion
+               pages/reserve.eaec546.js  <span class="token number">23.6</span> KiB      <span class="token number">19</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/reserve
+              pages/reserved.9da246f.js   <span class="token number">8.8</span> KiB      <span class="token number">20</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/reserved
+         pages/searchHistory.99f85ad.js  <span class="token number">7.24</span> KiB      <span class="token number">21</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/searchHistory
+              pages/seehouse.fba0cf5.js  <span class="token number">15.2</span> KiB      <span class="token number">22</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/seehouse
+                   pages/top.33ac64e.js  <span class="token number">4.64</span> KiB      <span class="token number">23</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/top
+           pages/transaction.99255bf.js  <span class="token number">31.3</span> KiB      <span class="token number">24</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/transaction
+              pages/userinfo.29dd21d.js  <span class="token number">17.8</span> KiB      <span class="token number">25</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         pages/userinfo
+                     runtime.00ded41.js  <span class="token number">3.18</span> KiB      <span class="token number">26</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         runtime
+                 vendors~app.73ecad6.js  <span class="token number">97.7</span> KiB      <span class="token number">27</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         vendors~app
+      vendors~pages/contract.26e386d.js   <span class="token number">479</span> KiB      <span class="token number">28</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>  <span class="token punctuation">[</span>big<span class="token punctuation">]</span>  vendors~pages/contract
+   vendors~pages/transaction.e99f0a0.js  <span class="token number">87.5</span> KiB      <span class="token number">29</span>  <span class="token punctuation">[</span>emitted<span class="token punctuation">]</span> <span class="token punctuation">[</span>immutable<span class="token punctuation">]</span>         vendors~pages/transaction
+ + <span class="token number">1</span> hidden asset
+Entrypoint app <span class="token operator">=</span> runtime.00ded41.js commons/app.1e7b06f.js vendors~app.73ecad6.js app.c00e03d.js  
+</code></pre></div><hr> <h3 id="生产环境部署"><a href="#生产环境部署" class="header-anchor">#</a> 生产环境部署</h3> <p>将构建好的文件，路径：<code>项目根目录/dist</code>下的所有文件 拷贝至107、108服务器的的<code>D:\webroot\Passport_Vue_2.0</code>文件夹即可,自动生效</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/resume/assets/js/app.0b89c60e.js" defer></script><script src="/resume/assets/js/2.9c9fc774.js" defer></script><script src="/resume/assets/js/12.aa02108f.js" defer></script>
   </body>
 </html>
