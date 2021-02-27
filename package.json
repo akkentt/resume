@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.8.0",
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
+  },
+  "dependencies": {
+    "vuepress-plugin-container": "^2.1.5"
+  }
+}
