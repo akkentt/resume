@@ -136,7 +136,7 @@
 
 <br><br>
 
-<div class="download"><a target="_blank" href="/resume/huangkuan-resume.pdf">下载简历</a></div>
+<div class="download"><a target="_blank" href="http://x.zhaonaonao.cn/huangkuan-resume.pdf">下载简历</a></div>
 
 
 
