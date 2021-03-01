@@ -1,6 +1,6 @@
 module.exports = {
   base:"/resume/",
-  title:"akkentt",
+  title:"黄宽",
   lang:"zh-CN",
   dest:"dist",
   locales: {
